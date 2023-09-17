@@ -1,15 +1,16 @@
-/*
-여
-러
-분
-반
-가
-워
-요
-사
-랑해
-요
-*/
-//이렇게 한줄로
-//또는 이렇게 두줄로 할 수 있지만
-/*이걸 쓰는게 더욱 편하겠죠?*/
+#include <stdio.h>
+
+int main(void) {
+    int num1 = 12;
+    int num2 = 12;
+
+    printf("num1: %d \n", num1);
+    printf("num1++: %d \n", num1++);
+    printf("num1: %d \n", num1);
+
+    printf("num2: %d \n", num2);
+    printf("++num2: %d \n", ++num2);
+    printf("num2: %d \n", num2);
+
+	return 0;
+}
