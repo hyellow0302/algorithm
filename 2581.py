@@ -14,5 +14,5 @@ for j in range(M, N+1):#(M,N)을 했을경우에는 M이상 N미만을 뜻함...
 if len(Array)==0:
     print(-1)
 else :
-    print(sum(Array))#sum함수 썻음!
-    print(min(Array))#min함수 썻음!
+    print(sum(Array))#sum함수 썻음!!
+    print(min(Array))#min함수 썻음!!
