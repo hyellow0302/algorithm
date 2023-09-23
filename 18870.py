@@ -13,6 +13,6 @@ for j in range (len(originArr)):
         key = originArr[j]
         originArr[j] = a[key]
 
-# 이제 완성된 리스트 출력 ㅋㅋ
+# 이제 완성된 리스트 출력
 for k in originArr:
     print(k, end=' ')
