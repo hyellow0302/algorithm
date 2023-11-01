@@ -23,7 +23,7 @@ int main(void) {
 				strcpy(result, playerList);//result라는 배열에 playList배열을 복사
 			}
 		}
-		printf("%s\n", result);//일단 i번째 케이스에서의 가장비싼선수 출력
+		printf("%s\n", result);//일단 i번째 케이스에서의 가장 비싼 선수 출력
 	}
 
 	return 0;
