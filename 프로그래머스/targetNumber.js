@@ -1,4 +1,4 @@
-/* 못풀었음... DFS 알고리즘 */
+/* DFS 알고리즘 */
 
 function solution(numbers, target) {
   let answer = 0;
