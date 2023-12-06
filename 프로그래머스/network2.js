@@ -4,7 +4,7 @@ function solution(n, computers) {
 
   function connectNetwork(network, index) {
     console.log("-----현재 스코어----", network, index, answer);
-    if (pathRecord.includes([network, index])) return;
+    if (pathRecord.includes(network.toString() + index.toString)) return;
     if (index >= n) {
       index = 0;
       network++;
