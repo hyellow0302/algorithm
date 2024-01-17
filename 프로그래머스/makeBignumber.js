@@ -2,7 +2,6 @@ function solution(number, k) {
   var answer = "";
   let arr = [];
   let returnLen = number.length - k;
-  let start = 0;
   let end = 0;
   let max = 0;
 
