@@ -20,7 +20,7 @@ function solution(clothes) {
   for (var i = 0; i < clothes.length; i++) {
     key = clothes[i][1]; // 옷의 종류
 
-    // 이미 myClosetd에 없는 새로운 옷 종류인가?
+    // 이미 myCloset에 없는 새로운 옷 종류인가?
     if (Object.hasOwn(myCloset, key) == false) {
       value = 2;
       myCloset[key] = value;
