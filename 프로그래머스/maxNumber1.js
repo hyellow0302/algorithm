@@ -1,6 +1,5 @@
 function solution(numbers) {
   var answer = "";
-  var sameNumber = [];
   var changed = false;
   var nextchanged = false;
   var parseValue = 0;
