@@ -26,7 +26,7 @@ function solution(maps) {
         nextX >= 0 &&
         nextX < maps[0].length &&
         nextY >= 0 &&
-        nextY < maps.lengt
+        nextY < maps.length
       ) {
         if (maps[nextY][nextX] == 1) {
           queue.push([nextY, nextX]);
