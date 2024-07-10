@@ -34,4 +34,3 @@ for i in range(N):
     trie.add(data[1:])
 
 trie.travel(0, trie.root)
-profile
